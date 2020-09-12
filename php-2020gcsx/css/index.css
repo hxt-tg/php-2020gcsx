@@ -1,5 +1,13 @@
 body {
     background-image: url("/imgs/bg.webp");
+    background-repeat: repeat-y;
     background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.btnright {
+    padding-left: 2em;
+}
+
+.iptleft {
+    padding-right: 2em;
 }

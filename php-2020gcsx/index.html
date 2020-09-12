@@ -16,8 +16,23 @@
         integrity="sha256-9nt4LsWmLI/O24lTW89IzAKuBqEZ47l/4rh1+tH/NY8=" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="/css/index.css">
 <body>
-<?php
-?>
+<div class="container">
+        <form action="/search.php" method="post">
+            <div class="form">
+                <div class="row">
+                    <p>国庆去哪儿？</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <input type="text" name="cityName" class="form-control" id="iptleft" placeholder="打算去哪儿逛逛？">
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <button id="btnright" type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Go!</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+</div>
 </body>
 </html>
 
