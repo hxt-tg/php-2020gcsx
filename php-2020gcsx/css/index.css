@@ -1,5 +1,10 @@
-body {
-    background-image: url("/imgs/bg.webp");
-    background-repeat: repeat-y;
-    background-size: cover;
+html, body, .fullscreen {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.query-panel {
+    background-color: rgba(147, 199, 229, 0.6);
+    
 }
