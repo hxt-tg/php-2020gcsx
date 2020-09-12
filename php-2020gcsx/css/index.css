@@ -4,6 +4,12 @@ html, body, .fullscreen {
     width: 100%;
 }
 
+body {
+    background-image: url("/imgs/bg.webp");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
 .query-panel {
     background-color: rgba(147, 199, 229, 0.6);
     
